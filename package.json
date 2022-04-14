@@ -1,0 +1,31 @@
+{
+  "name": "prisma-revolution",
+  "version": "1.0.0",
+  "description": "A prisma revolution for you",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --transpile-only --files src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DayGarcia/prisma-revolution.git"
+  },
+  "keywords": [
+    "prisma",
+    "revolution"
+  ],
+  "author": "daygarcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DayGarcia/prisma-revolution/issues"
+  },
+  "homepage": "https://github.com/DayGarcia/prisma-revolution#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.6.3"
+  }
+}
